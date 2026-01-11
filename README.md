@@ -167,7 +167,7 @@ rm -rf data/chroma_db
 
 This project is open source and available under the MIT License.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Ollama** - Local LLM runtime
 - **ChromaDB** - Vector database
