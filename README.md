@@ -2,7 +2,7 @@
 
 A local, privacy-focused Retrieval Augmented Generation (RAG) system for analyzing contract documents using Ollama, ChromaDB, and Streamlit.
 
-## 🌟 Features
+##  Features
 
 - **100% Local & Private**: All processing happens on your machine, no data sent to external APIs
 - **Multi-Document Support**: Upload and query multiple PDF contracts
@@ -11,7 +11,7 @@ A local, privacy-focused Retrieval Augmented Generation (RAG) system for analyzi
 - **Source Attribution**: Shows which documents were used to answer questions
 - **Multilingual Support**: Supports Turkish and other languages
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Contract PDFs → Document Processor → Text Chunks → HuggingFace Embeddings
@@ -25,7 +25,7 @@ User Question → Vector Search (ChromaDB) → Relevant Chunks → Ollama llama3
 - **RAG Pipeline**: Combines retrieval with Ollama LLM for answers
 - **Streamlit UI**: Web interface for interaction
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 contract_rag/
@@ -41,7 +41,7 @@ contract_rag/
 └── README.md                   # This file
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -70,7 +70,7 @@ contract_rag/
    # Should show llama3.2
    ```
 
-## 💻 Usage
+##  Usage
 
 ### Start the Application
 
@@ -104,7 +104,7 @@ The web interface will open at `http://localhost:8501`
 - "Is there an early termination fee?"
 - "What are my obligations under this contract?"
 
-## 🔧 Configuration
+##  Configuration
 
 ### Change LLM Model
 
@@ -129,7 +129,7 @@ model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 # Try other models from HuggingFace
 ```
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### "No module named 'src'"
 Make sure you're running from the `contract_rag` directory.
@@ -149,21 +149,21 @@ Delete `data/chroma_db/` and re-process PDFs:
 rm -rf data/chroma_db
 ```
 
-## 📊 Performance
+##  Performance
 
 - **Initial Setup**: 2-5 minutes (model downloads)
 - **PDF Processing**: ~30 seconds per PDF
 - **Question Answering**: 3-10 seconds per question
 - **Database Loading**: 1-2 seconds
 
-## 🔐 Privacy & Security
+##  Privacy & Security
 
 - ✅ All data stays on your local machine
 - ✅ No external API calls
 - ✅ No internet required after setup
 - ✅ Your contracts never leave your computer
 
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
 
@@ -175,11 +175,11 @@ This project is open source and available under the MIT License.
 - **Streamlit** - Web interface
 - **HuggingFace** - Embedding models
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to open issues or submit pull requests!
 
-## 📧 Support
+##  Support
 
 For questions or issues, please open a GitHub issue.
 
