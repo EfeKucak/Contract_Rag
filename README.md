@@ -1,8 +1,26 @@
-# 📄 Contract RAG Assistant
+# Contract RAG Assistant
 
 A local, privacy-focused Retrieval Augmented Generation (RAG) system for analyzing contract documents using Ollama, ChromaDB, and Streamlit.
 
-##  Features
+## Why This Project?
+
+Contract documents can be long, complex, and difficult to navigate. This RAG system solves that problem by allowing you to:
+- Ask natural language questions about your contracts
+- Get instant, accurate answers with source citations
+- Process multiple contracts simultaneously
+- Keep all your sensitive data completely private and local
+
+Perfect for legal professionals, freelancers, small businesses, or anyone who needs to quickly extract information from contract documents without sending data to external APIs.
+
+## Key Highlights
+
+- **100% Privacy**: All processing happens locally - your contracts never leave your machine
+- **No API Costs**: Uses open-source models (Ollama + llama3.2) instead of paid APIs
+- **Smart Search**: Semantic vector search finds relevant information even with different wording
+- **Multi-Language**: Supports Turkish, English, and other languages
+- **Easy to Use**: Simple web interface - just upload PDFs and ask questions
+
+## Features
 
 - **100% Local & Private**: All processing happens on your machine, no data sent to external APIs
 - **Multi-Document Support**: Upload and query multiple PDF contracts
