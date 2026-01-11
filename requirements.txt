@@ -1,0 +1,26 @@
+# LangChain - RAG framework and document processing
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core>=0.3.29
+
+# ChromaDB - Vector database for storing document embeddings
+chromadb==1.4.0
+
+# PyPDF - PDF document reading and parsing
+pypdf==5.1.0
+
+# Streamlit - Web interface framework
+streamlit==1.41.1
+
+# Ollama - Local LLM integration (llama3.2)
+ollama==0.4.4
+
+# Sentence Transformers - Text embeddings for vector search
+sentence-transformers==3.3.1
+
+# HuggingFace Hub - Required for downloading embedding models
+huggingface-hub==0.27.0
+
+# Additional dependencies
+pydantic==2.10.5
+pydantic-settings==2.7.1
